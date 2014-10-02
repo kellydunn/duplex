@@ -1,0 +1,303 @@
+<Device>
+  <Name>_midibox_dc</Name>
+  <Author></Author>
+  <Description>Midibox DC
+  </Description>
+  <Parameters>
+    <Row>
+      <Column>
+        <Row>          
+          <Group name="Function" orientation="vertical" rows="8">
+            <Param value="F#3" type="button" name="Function #1" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G-3" type="button" name="Function #2" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G#3" type="button" name="Function #3" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A-3" type="button" name="Function #4" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A#3" type="button" name="Function #5" size="0.75" maximum="127" minimum="0"/>
+            <Param value="B-3" type="button" name="Function #6" size="0.75" maximum="127" minimum="0"/>
+            <Param value="C-4" type="button" name="Function #7" size="0.75" maximum="127" minimum="0"/>
+            <Param value="C#4" type="button" name="Function #8" size="0.75" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+        <Row>          
+          <Group name="Transport" orientation="vertical" rows="8">
+            <Param value="C-0|Ch1" type="togglebutton" name="Function #1" size="0.75" maximum="127" minimum="0"/>
+            <Param value="C#0|Ch1" type="togglebutton" name="Function #2" size="0.75" maximum="127" minimum="0"/>
+            <Param value="D-0|Ch1" type="togglebutton" name="Function #3" size="0.75" maximum="127" minimum="0"/>
+            <Param value="D#0|Ch1" type="pushbutton" name="Function #4" size="0.75" maximum="127" minimum="0"/>
+            <Param value="E-0|Ch1" type="pushbutton" name="Function #5" size="0.75" maximum="127" minimum="0"/>
+            <Param value="F-0|Ch1" type="togglebutton" name="Function #6" size="0.75" maximum="127" minimum="0"/>
+            <Param value="F#0|Ch1" type="togglebutton" name="Function #7" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G-0|Ch1" type="togglebutton" name="Function #8" size="0.75" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+      </Column>
+      <Column>
+        <Row>
+          <Group name="ENC1k" orientation="horizontal" columns="8">
+            <Param value="C-0|Ch2" type="pushbutton" name="Select1 #1" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="C#0|Ch2" type="pushbutton" name="Select1 #2" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="D-0|Ch2" type="pushbutton" name="Select1 #3" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="D#0|Ch2" type="pushbutton" name="Select1 #4" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="E-0|Ch2" type="pushbutton" name="Select1 #5" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="F-0|Ch2" type="pushbutton" name="Select1 #6" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="F#0|Ch2" type="pushbutton" name="Select1 #7" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+            <Param value="G-0|Ch2" type="pushbutton" name="Select1 #8" size="1.45" aspect="0.3" maximum="80" minimum="0" skip_echo />
+          </Group>
+        </Row>
+        <Row>
+          <Group name="ENC1a" orientation="horizontal">
+            <Param value="CC#1|Ch1"  type="dial" name="ENC1a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#7|Ch1"  type="dial" name="ENC1a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#13|Ch1" type="dial" name="ENC1a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#19|Ch1" type="dial" name="ENC1a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#25|Ch1" type="dial" name="ENC1a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#31|Ch1" type="dial" name="ENC1a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#37|Ch1" type="dial" name="ENC1a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#43|Ch1" type="dial" name="ENC1a #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+         
+          <Group name="ENC1b" orientation="horizontal">
+            <Param value="CC#49|Ch1" type="dial" name="ENC1b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#55|Ch1" type="dial" name="ENC1b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#61|Ch1" type="dial" name="ENC1b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#67|Ch1" type="dial" name="ENC1b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#73|Ch1" type="dial" name="ENC1b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#79|Ch1" type="dial" name="ENC1b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#85|Ch1" type="dial" name="ENC1b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#91|Ch1" type="dial" name="ENC1b #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+        <Row>
+          <Group name="ENC2a" orientation="horizontal">
+            <Param value="CC#2|Ch1"  type="dial" name="ENC2a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#8|Ch1"  type="dial" name="ENC2a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#14|Ch1" type="dial" name="ENC2a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#20|Ch1" type="dial" name="ENC2a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#26|Ch1" type="dial" name="ENC2a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#32|Ch1" type="dial" name="ENC2a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#38|Ch1" type="dial" name="ENC2a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#44|Ch1" type="dial" name="ENC2a #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+         
+          <Group name="ENC2b" orientation="horizontal">
+            <Param value="CC#50|Ch1" type="dial" name="ENC2b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#56|Ch1" type="dial" name="ENC2b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#62|Ch1" type="dial" name="ENC2b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#68|Ch1" type="dial" name="ENC2b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#74|Ch1" type="dial" name="ENC2b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#80|Ch1" type="dial" name="ENC2b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#86|Ch1" type="dial" name="ENC2b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#92|Ch1" type="dial" name="ENC2b #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+       
+        <Row>
+          <Group name="ENC345a" orientation="horizontal" columns="8">
+           
+            <Param value="CC#3|Ch1"  type="dial" name="ENC3a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#9|Ch1"  type="dial" name="ENC3a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#15|Ch1" type="dial" name="ENC3a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#21|Ch1" type="dial" name="ENC3a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#27|Ch1" type="dial" name="ENC3a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#33|Ch1" type="dial" name="ENC3a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#39|Ch1" type="dial" name="ENC3a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#45|Ch1" type="dial" name="ENC3a #8"  size="0.7" maximum="127" minimum="0"/>
+           
+            <Param value="CC#4|Ch1"  type="dial" name="ENC4a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#10|Ch1" type="dial" name="ENC4a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#16|Ch1" type="dial" name="ENC4a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#22|Ch1" type="dial" name="ENC4a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#28|Ch1" type="dial" name="ENC4a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#34|Ch1" type="dial" name="ENC4a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#40|Ch1" type="dial" name="ENC4a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#46|Ch1" type="dial" name="ENC4a #8"  size="0.7" maximum="127" minimum="0"/>
+           
+           
+            <Param value="CC#5|Ch1"  type="dial" name="ENC5a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#11|Ch1" type="dial" name="ENC5a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#17|Ch1" type="dial" name="ENC5a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#23|Ch1" type="dial" name="ENC5a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#29|Ch1" type="dial" name="ENC5a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#35|Ch1" type="dial" name="ENC5a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#41|Ch1" type="dial" name="ENC5a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#47|Ch1" type="dial" name="ENC5a #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+         
+          <Group name="ENC345b" orientation="horizontal" columns="8">
+         
+            <Param value="CC#51|Ch1" type="dial" name="ENC3b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#57|Ch1" type="dial" name="ENC3b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#63|Ch1" type="dial" name="ENC3b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#69|Ch1" type="dial" name="ENC3b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#75|Ch1" type="dial" name="ENC3b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#81|Ch1" type="dial" name="ENC3b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#87|Ch1" type="dial" name="ENC3b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#93|Ch1" type="dial" name="ENC3b #8"  size="0.7" maximum="127" minimum="0"/>
+           
+            <Param value="CC#52|Ch1" type="dial" name="ENC4b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#58|Ch1" type="dial" name="ENC4b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#64|Ch1" type="dial" name="ENC4b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#70|Ch1" type="dial" name="ENC4b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#76|Ch1" type="dial" name="ENC4b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#82|Ch1" type="dial" name="ENC4b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#88|Ch1" type="dial" name="ENC4b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#94|Ch1" type="dial" name="ENC4b #8"  size="0.7" maximum="127" minimum="0"/>
+           
+            <Param value="CC#53|Ch1" type="dial" name="ENC5b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#59|Ch1" type="dial" name="ENC5b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#65|Ch1" type="dial" name="ENC5b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#71|Ch1" type="dial" name="ENC5b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#77|Ch1" type="dial" name="ENC5b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#83|Ch1" type="dial" name="ENC5b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#89|Ch1" type="dial" name="ENC5b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#95|Ch1" type="dial" name="ENC5b #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+       
+        <Row>
+          <Group name="ENC6a" orientation="horizontal">
+            <Param value="CC#6|Ch1"  type="dial" name="ENC6a #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#12|Ch1" type="dial" name="ENC6a #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#18|Ch1" type="dial" name="ENC6a #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#24|Ch1" type="dial" name="ENC6a #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#30|Ch1" type="dial" name="ENC6a #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#36|Ch1" type="dial" name="ENC6a #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#42|Ch1" type="dial" name="ENC6a #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#48|Ch1" type="dial" name="ENC6a #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+         
+          <Group name="ENC6b" orientation="horizontal">
+            <Param value="CC#54|Ch1" type="dial" name="ENC6b #1"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#60|Ch1" type="dial" name="ENC6b #2"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#66|Ch1" type="dial" name="ENC6b #3"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#72|Ch1" type="dial" name="ENC6b #4"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#78|Ch1" type="dial" name="ENC6b #5"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#84|Ch1" type="dial" name="ENC6b #6"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#90|Ch1" type="dial" name="ENC6b #7"  size="0.7" maximum="127" minimum="0"/>
+            <Param value="CC#96|Ch1" type="dial" name="ENC6b #8"  size="0.7" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+       
+        <Group name="Select1" orientation="horizontal" columns="8">
+          <Param value="C-2|Ch1" type="togglebutton" name="Select1 #1" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="E-2|Ch1" type="togglebutton" name="Select1 #2" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="G#2|Ch1" type="togglebutton" name="Select1 #3" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="C-3|Ch1" type="togglebutton" name="Select1 #4" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="E-3|Ch1" type="togglebutton" name="Select1 #5" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="G#3|Ch1" type="togglebutton" name="Select1 #6" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="C-4|Ch1" type="togglebutton" name="Select1 #7" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="E-4|Ch1" type="togglebutton" name="Select1 #8" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+        </Group>
+       
+        <Group name="Select2" orientation="horizontal" columns="8">
+          <Param value="C#2|Ch1" type="togglebutton" name="Select1 #1" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="F-2|Ch1" type="togglebutton" name="Select1 #2" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="A-2|Ch1" type="togglebutton" name="Select1 #3" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="C#3|Ch1" type="togglebutton" name="Select1 #4" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="F-3|Ch1" type="togglebutton" name="Select1 #5" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="A-3|Ch1" type="togglebutton" name="Select1 #6" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="C#4|Ch1" type="togglebutton" name="Select1 #7" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+          <Param value="F-4|Ch1" type="togglebutton" name="Select1 #8" size="1.45" aspect="0.5" maximum="80" minimum="0"/>
+        </Group>
+       
+        <Group name="Select4_3" orientation="horizontal" columns="8">
+          <Param value="D#2" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="G-2" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="B-2" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="D#3" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="G-3" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="B-3" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="D#4" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="G-4" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+         
+          <Param value="D-2" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="F#2" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="A#2" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="D-3" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="F#3" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="A#3" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="D-4" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+          <Param value="F#4" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="127" minimum="0"/>
+         
+        </Group>
+       
+        <Group name="Select5" orientation="horizontal" columns="8">
+          <Param value="G#4|Ch1" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="1" minimum="0"/>
+          <Param value="A-4|Ch1" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="2" minimum="0"/>
+          <Param value="A#4|Ch1" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="3" minimum="0"/>
+          <Param value="B-4|Ch1" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="4" minimum="0"/>
+          <Param value="C-5|Ch1" type="togglebutton" name="Select #1" size="1.45" aspect="0.5" maximum="5" minimum="0"/>
+          <Param value="C#5|Ch1" type="togglebutton" name="Select #2" size="1.45" aspect="0.5" maximum="6" minimum="0"/>
+          <Param value="D-5|Ch1" type="togglebutton" name="Select #3" size="1.45" aspect="0.5" maximum="7" minimum="0"/>
+          <Param value="D#5|Ch1" type="togglebutton" name="Select #4" size="1.45" aspect="0.5" maximum="8" minimum="0"/>
+        </Group>
+ 
+        <Group name="Faders" orientation="horizontal">
+          <Param value="PB|Ch1" type="fader" name="Fader #1"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch2" type="fader" name="Fader #2"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch3" type="fader" name="Fader #3"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch4" type="fader" name="Fader #4"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch5" type="fader" name="Fader #5"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch6" type="fader" name="Fader #6"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch7" type="fader" name="Fader #7"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+          <Param value="PB|Ch8" type="fader" name="Fader #8"  orientation="vertical" size="4" aspect="1.454" maximum="127" minimum="0"/>
+        </Group>
+ 
+      </Column>        
+ 
+ 
+      <Column>
+     
+        <Row>          
+          <Group name="Function1" orientation="horizontal" columns="4">
+            <Param value="F#3" type="button" name="Function #1" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G-3" type="button" name="Function #2" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G#3" type="button" name="Function #3" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A-3" type="button" name="Function #4" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A#3" type="button" name="Function #5" size="0.75" maximum="127" minimum="0"/>
+            <Param value="B-3" type="button" name="Function #6" size="0.75" maximum="127" minimum="0"/>
+            <Param value="C-4" type="button" name="Function #7" size="0.75" maximum="127" minimum="0"/>
+            <Param value="C#4" type="button" name="Function #8" size="0.75" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+ 
+       
+        <Column>
+        <Row>
+         
+          <Group name="Wheel1" >
+            <Param value="CC#127" type="dial" orientation="vertical" name="Scrub Wheel" size="3" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+       
+        <Row>
+         
+          <Group name="Wheel2" orientation="horizontal">
+            <Param value="CC#60" type="dial" name="Scrub Wheel" size="3" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+        </Column>
+       
+     
+        <Row>          
+          <Group name="Function2" orientation="horizontal" columns="4">
+            <Param value="E-1|Ch1" type="button" name="Function #1" size="0.75" maximum="127" minimum="0"/>
+            <Param value="F-1|Ch1" type="button" name="Function #2" size="0.75" maximum="127" minimum="0"/>
+            <Param value="F#1|Ch1" type="button" name="Function #3" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G-1|Ch1" type="button" name="Function #4" size="0.75" maximum="127" minimum="0"/>
+            <Param value="G#1|Ch1" type="button" name="Function #5" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A-1|Ch1" type="button" name="Function #6" size="0.75" maximum="127" minimum="0"/>
+            <Param value="A#1|Ch1" type="button" name="Function #7" size="0.75" maximum="127" minimum="0"/>
+            <Param value="B-1|Ch1" type="button" name="Function #8" size="0.75" maximum="127" minimum="0"/>
+          </Group>
+        </Row>
+      </Column>
+    </Row>
+  </Parameters>
+</Device>

@@ -1,0 +1,69 @@
+<Device>
+	<Name>Remote TestPad</Name>
+	<Author>Danoise</Author>
+	<Description></Description>
+	<Parameters>
+		<Row>
+			<Column>
+				<Group name="slider_label" >
+					<Param value="" size="8" aspect="0.08" type="label" text="UIPad"/>
+				</Group>
+				<Group name="pad" columns="2">
+					<Param value="/tilt 0 {%i} {%i} 0" size="4" type="xypad" invert_y="true" invert_x="true" skip_echo="true" maximum="162" minimum="87"/>
+					<Param value="/tilt 0 {%i} {%i} 0" size="4" type="xypad" invert_y="true" invert_x="true" skip_echo="true" maximum="162" minimum="87"/>
+					<Param value="/tilt 0 {%i} {%i} 0" size="4" type="xypad" invert_y="true" invert_x="true" skip_echo="true" maximum="162" minimum="87"/>
+					<Param value="/tilt 0 {%i} {%i} 0" size="4" type="xypad" invert_y="true" invert_x="true" skip_echo="true" maximum="162" minimum="87"/>
+				</Group>
+			</Column>
+			<Column>
+				<Group name="slider_label" >
+					<Param value="" size="2" aspect="0.33" type="label" text="UISlider"/>
+				</Group>
+				<Row>
+					<!--
+					<Group name="slider" >
+						<Param value="CC#0" size="8" orientation="vertical" type="fader" mode="rel_7_signed" text="value xy" minimum="64" maximum="127"/>
+					</Group>
+					-->
+					<Group name="slider_buttons" orientation="vertical">
+					<Param value="/grid/led/set 0 0 %i"  action="/grid/key 0 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 1 0 %i"  action="/grid/key 1 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 2 0 %i"  action="/grid/key 2 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 3 0 %i"  action="/grid/key 3 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 4 0 %i"  action="/grid/key 4 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 5 0 %i"  action="/grid/key 5 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 6 0 %i"  action="/grid/key 6 0 %i"  type="button" maximum="1" minimum="0"/>
+					<Param value="/grid/led/set 7 0 %i"  action="/grid/key 7 0 %i"  type="button" maximum="1" minimum="0"/>
+					</Group>
+				</Row>
+			</Column>
+			<Column>
+				<Group name="label_label" >
+					<Param size="4" aspect="0.17" type="label" text="Info / options"/>
+				</Group>
+				<Group name="label" orientation="vertical">
+					<Param size="4" aspect="1.23" type="label" text=""/>
+				</Group>
+				<!--
+				<Row>
+					<Group name="switcher">
+						<Param value="" size="1" aspect="0.5" type="button" minimum="64" maximum="127"/>
+						<Param value="" size="1" aspect="0.5" type="button" minimum="64" maximum="127"/>
+						<Param value="" size="1" aspect="0.5" type="button" minimum="64" maximum="127"/>
+						<Param value="" size="1" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					</Group>
+				</Row>
+				-->
+				<Group name="options" columns="2">
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+					<Param size="2" aspect="0.5" type="button" minimum="64" maximum="127"/>
+				</Group>
+			</Column>
+		</Row>
+	</Parameters>
+</Device>
+

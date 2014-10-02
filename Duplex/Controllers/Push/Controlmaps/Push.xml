@@ -1,0 +1,215 @@
+<Device>
+  <Name>Ableton Push</Name>
+  <Author>promovicz</Author>
+  <Description></Description>
+  <Parameters>
+    <Page>
+      <Row>
+        <Column>
+          <Group name="Tempo" orientation="vertical">
+            <Param value="CC#3" type="button" name="Tap Tempo" maximum="127" minimum="0"/>
+            <Param value="CC#9" type="button" name="Metronome" maximum="127" minimum="0"/>
+            <Param value="CC#14" type="dial" name="Tempo" maximum="127" minimum="0"/>
+          </Group>
+          <Group name="Editing" orientation="vertical">
+            <Param value="CC#119" type="button" name="Undo" maximum="127" minimum="0"/>
+            <Param value="CC#118" type="button" name="Delete" maximum="127" minimum="0"/>
+            <Param value="CC#117" type="button" name="Double" maximum="127" minimum="0"/>
+            <Param value="CC#116" type="button" name="Quantize" maximum="127" minimum="0"/>
+            <Param value="CC#90" type="button" name="Fixed Length" maximum="127" minimum="0"/>
+            <Param value="CC#89" type="button" name="Automation" maximum="127" minimum="0"/>
+            <Param value="CC#88" type="button" name="Duplicate" maximum="127" minimum="0"/>
+          </Group>
+          <Group name="Transport" orientation="vertical">
+            <Param value="CC#86" type="button" name="Rec"  maximum="127" minimum="0"/>
+            <Param value="CC#85" type="button" name="Play" maximum="127" minimum="0"/>
+          </Group>
+        </Column>
+        <Column>
+          <Group name="Swing" orientation="vertical">
+            <Param value="CC#15" type="dial" name="Swing" maximum="127" minimum="0"/>
+          </Group>
+          <!--
+          <Group name="Ribbon" orientation="vertical" colorspace="1,0,0">
+            <Param value="CC#14" type="fader" name="Ribbon" orientation="vertical" size="8" maximum="127" minimum="0"/>
+          </Group>
+          -->
+        </Column>
+        <Column>
+          <Row>
+            <Group name="Track Controls" orientation="horizontal" columns="8">
+              <Param value="CC#20" type="dial" name="Track Control 1" maximum="127" minimum="0"/>
+              <Param value="CC#21" type="dial" name="Track Control 2" maximum="127" minimum="0"/>
+              <Param value="CC#22" type="dial" name="Track Control 3" maximum="127" minimum="0"/>
+              <Param value="CC#23" type="dial" name="Track Control 4" maximum="127" minimum="0"/>
+              <Param value="CC#24" type="dial" name="Track Control 5" maximum="127" minimum="0"/>
+              <Param value="CC#25" type="dial" name="Track Control 6" maximum="127" minimum="0"/>
+              <Param value="CC#26" type="dial" name="Track Control 7" maximum="127" minimum="0"/>
+              <Param value="CC#28" type="dial" name="Track Control 8" maximum="127" minimum="0"/>
+            </Group>
+            <Group name="Master Dial">
+              <Param value="CC#79" type="dial" name="Master Control" maximum="127" minimum="0"/>
+            </Group>
+          </Row>
+          <Row>
+            <Column>
+              <Row>
+                <Group name="Track Select" orientation="horizontal" columns="8">
+                  <Param value="CC#20" type="button" name="Track Select 1" maximum="127" minimum="0"/>
+                  <Param value="CC#21" type="button" name="Track Select 2" maximum="127" minimum="0"/>
+                  <Param value="CC#22" type="button" name="Track Select 3" maximum="127" minimum="0"/>
+                  <Param value="CC#23" type="button" name="Track Select 4" maximum="127" minimum="0"/>
+                  <Param value="CC#24" type="button" name="Track Select 5" maximum="127" minimum="0"/>
+                  <Param value="CC#25" type="button" name="Track Select 6" maximum="127" minimum="0"/>
+                  <Param value="CC#26" type="button" name="Track Select 7" maximum="127" minimum="0"/>
+                  <Param value="CC#28" type="button" name="Track Select 8" maximum="127" minimum="0"/>
+                </Group>
+              </Row>
+              <Row>
+                <Group name="Track State" orientation="horizontal" columns="8" colorspace="[8,8,8]">
+                  <Param value="CC#102" type="button" name="Track State 1" maximum="127" minimum="0"/>
+                  <Param value="CC#103" type="button" name="Track State 2" maximum="127" minimum="0"/>
+                  <Param value="CC#104" type="button" name="Track State 3" maximum="127" minimum="0"/>
+                  <Param value="CC#105" type="button" name="Track State 4" maximum="127" minimum="0"/>
+                  <Param value="CC#106" type="button" name="Track State 5" maximum="127" minimum="0"/>
+                  <Param value="CC#107" type="button" name="Track State 6" maximum="127" minimum="0"/>
+                  <Param value="CC#108" type="button" name="Track State 7" maximum="127" minimum="0"/>
+                  <Param value="CC#109" type="button" name="Track State 8" maximum="127" minimum="0"/>
+                </Group>
+              </Row>
+            </Column>
+            <Column>
+              <Group name="Master Buttons" orientation="vertical">
+                <Param value="CC#28" type="button" name="Master" maximum="127" minimum="0"/>
+                <Param value="CC#29" type="button" name="Stop" maximum="127" minimum="0"/>
+              </Group>
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Group name="Pads" columns="8" orientation="horizontal" colorspace="[8,8,8]">
+                <Param value="G#6|Ch1" type="button" name="Pad 1,1" maximum="127" minimum="0"/>
+                <Param value="A-6|Ch1" type="button" name="Pad 1,2" maximum="127" minimum="0"/>
+                <Param value="A#6|Ch1" type="button" name="Pad 1,3" maximum="127" minimum="0"/>
+                <Param value="B-6|Ch1" type="button" name="Pad 1,4" maximum="127" minimum="0"/>
+                <Param value="C-7|Ch1" type="button" name="Pad 1,5" maximum="127" minimum="0"/>
+                <Param value="C#7|Ch1" type="button" name="Pad 1,6" maximum="127" minimum="0"/>
+                <Param value="D-7|Ch1" type="button" name="Pad 1,7" maximum="127" minimum="0"/>
+                <Param value="D#7|Ch1" type="button" name="Pad 1,8" maximum="127" minimum="0"/>
+                
+                <Param value="C-6|Ch1" type="button" name="Pad 2,1" maximum="127" minimum="0"/>
+                <Param value="C#6|Ch1" type="button" name="Pad 2,2" maximum="127" minimum="0"/>
+                <Param value="D-6|Ch1" type="button" name="Pad 2,3" maximum="127" minimum="0"/>
+                <Param value="D#6|Ch1" type="button" name="Pad 2,4" maximum="127" minimum="0"/>
+                <Param value="E-6|Ch1" type="button" name="Pad 2,5" maximum="127" minimum="0"/>
+                <Param value="F-6|Ch1" type="button" name="Pad 2,6" maximum="127" minimum="0"/>
+                <Param value="F#6|Ch1" type="button" name="Pad 2,7" maximum="127" minimum="0"/>
+                <Param value="G-6|Ch1" type="button" name="Pad 2,8" maximum="127" minimum="0"/>              
+                
+                <Param value="E-5|Ch1" type="button" name="Pad 3,1" maximum="127" minimum="0"/>
+                <Param value="F-5|Ch1" type="button" name="Pad 3,2" maximum="127" minimum="0"/>
+                <Param value="F#5|Ch1" type="button" name="Pad 3,3" maximum="127" minimum="0"/>
+                <Param value="G-5|Ch1" type="button" name="Pad 3,4" maximum="127" minimum="0"/>
+                <Param value="G#5|Ch1" type="button" name="Pad 3,5" maximum="127" minimum="0"/>
+                <Param value="A-5|Ch1" type="button" name="Pad 3,6" maximum="127" minimum="0"/>
+                <Param value="A#5|Ch1" type="button" name="Pad 3,7" maximum="127" minimum="0"/>
+                <Param value="B-5|Ch1" type="button" name="Pad 3,8" maximum="127" minimum="0"/>              
+                
+                <Param value="G#4|Ch1" type="button" name="Pad 4,1" maximum="127" minimum="0"/>
+                <Param value="A-4|Ch1" type="button" name="Pad 4,2" maximum="127" minimum="0"/>
+                <Param value="A#4|Ch1" type="button" name="Pad 4,3" maximum="127" minimum="0"/>
+                <Param value="B-4|Ch1" type="button" name="Pad 4,4" maximum="127" minimum="0"/>              
+                <Param value="C-5|Ch1" type="button" name="Pad 4,5" maximum="127" minimum="0"/>
+                <Param value="C#5|Ch1" type="button" name="Pad 4,6" maximum="127" minimum="0"/>
+                <Param value="D-5|Ch1" type="button" name="Pad 4,7" maximum="127" minimum="0"/>
+                <Param value="D#5|Ch1" type="button" name="Pad 4,8" maximum="127" minimum="0"/>
+                
+                <Param value="C-4|Ch1" type="button" name="Pad 5,1" maximum="127" minimum="0"/>
+                <Param value="C#4|Ch1" type="button" name="Pad 5,2" maximum="127" minimum="0"/>
+                <Param value="D-4|Ch1" type="button" name="Pad 5,3" maximum="127" minimum="0"/>
+                <Param value="D#4|Ch1" type="button" name="Pad 5,4" maximum="127" minimum="0"/>
+                <Param value="E-4|Ch1" type="button" name="Pad 5,5" maximum="127" minimum="0"/>
+                <Param value="F-4|Ch1" type="button" name="Pad 5,6" maximum="127" minimum="0"/>
+                <Param value="F#4|Ch1" type="button" name="Pad 5,7" maximum="127" minimum="0"/>
+                <Param value="G-4|Ch1" type="button" name="Pad 5,8" maximum="127" minimum="0"/>              
+                
+                <Param value="E-3|Ch1" type="button" name="Pad 6,1" maximum="127" minimum="0"/>
+                <Param value="F-3|Ch1" type="button" name="Pad 6,2" maximum="127" minimum="0"/>
+                <Param value="F#3|Ch1" type="button" name="Pad 6,3" maximum="127" minimum="0"/>
+                <Param value="G-3|Ch1" type="button" name="Pad 6,4" maximum="127" minimum="0"/>              
+                <Param value="G#3|Ch1" type="button" name="Pad 6,5" maximum="127" minimum="0"/>
+                <Param value="A-3|Ch1" type="button" name="Pad 6,6" maximum="127" minimum="0"/>
+                <Param value="A#3|Ch1" type="button" name="Pad 6,7" maximum="127" minimum="0"/>
+                <Param value="B-3|Ch1" type="button" name="Pad 6,8" maximum="127" minimum="0"/>
+                
+                <Param value="G#2|Ch1" type="button" name="Pad 7,1" maximum="127" minimum="0"/>
+                <Param value="A-2|Ch1" type="button" name="Pad 7,2" maximum="127" minimum="0"/>
+                <Param value="A#2|Ch1" type="button" name="Pad 7,3" maximum="127" minimum="0"/>
+                <Param value="B-2|Ch1" type="button" name="Pad 7,4" maximum="127" minimum="0"/>
+                <Param value="C-3|Ch1" type="button" name="Pad 7,5" maximum="127" minimum="0"/>
+                <Param value="C#3|Ch1" type="button" name="Pad 7,6" maximum="127" minimum="0"/>
+                <Param value="D-3|Ch1" type="button" name="Pad 7,7" maximum="127" minimum="0"/>
+                <Param value="D#3|Ch1" type="button" name="Pad 7,8" maximum="127" minimum="0"/>
+                
+                <Param value="C-2|Ch1" type="button" name="Pad 8,1" maximum="127" minimum="0"/>
+                <Param value="C#2|Ch1" type="button" name="Pad 8,2" maximum="127" minimum="0"/>
+                <Param value="D-2|Ch1" type="button" name="Pad 8,3" maximum="127" minimum="0"/>
+                <Param value="D#2|Ch1" type="button" name="Pad 8,4" maximum="127" minimum="0"/>
+                <Param value="E-2|Ch1" type="button" name="Pad 8,5" maximum="127" minimum="0"/>
+                <Param value="F-2|Ch1" type="button" name="Pad 8,6" maximum="127" minimum="0"/>
+                <Param value="F#2|Ch1" type="button" name="Pad 8,7" maximum="127" minimum="0"/>
+                <Param value="G-2|Ch1" type="button" name="Pad 8,8" maximum="127" minimum="0"/>
+              </Group>
+            </Column>
+            <Column>
+              <Group name="Measure" orientation="vertical">
+                <Param value="CC#43" type="button" name="1/32t" maximum="127" minimum="0"/>
+                <Param value="CC#42" type="button" name="1/32" maximum="127" minimum="0"/>
+                <Param value="CC#41" type="button" name="1/16t" maximum="127" minimum="0"/>
+                <Param value="CC#40" type="button" name="1/16" maximum="127" minimum="0"/>
+                <Param value="CC#39" type="button" name="1/8t" maximum="127" minimum="0"/>
+                <Param value="CC#38" type="button" name="1/8" maximum="127" minimum="0"/>
+                <Param value="CC#37" type="button" name="1/4t" maximum="127" minimum="0"/>
+                <Param value="CC#36" type="button" name="1/4" maximum="127" minimum="0"/>
+              </Group>
+            </Column>
+          </Row>
+        </Column>
+        <Column>
+          <Group name="Control" columns="2">
+            <Param value="CC#114" type="button" name="Volume" maximum="127" minimum="0"/>
+            <Param value="CC#115" type="button" name="Pan/Send" maximum="127" minimum="0"/>
+            <Param value="CC#112" type="button" name="Track" maximum="127" minimum="0"/>
+            <Param value="CC#113" type="button" name="Clip" maximum="127" minimum="0"/>
+            <Param value="CC#110" type="button" name="Device" maximum="127" minimum="0"/>
+            <Param value="CC#111" type="button" name="Browse" maximum="127" minimum="0"/>
+
+            <Param value="CC#62" type="button" name="Back" maximum="127" minimum="0"/>
+            <Param value="CC#63" type="button" name="Forward" maximum="127" minimum="0"/>
+            <Param value="CC#60" type="button" name="Mute" maximum="127" minimum="0"/>
+            <Param value="CC#61" type="button" name="Solo" maximum="127" minimum="0"/>
+            <Param value="CC#58" type="button" name="Scales" maximum="127" minimum="0"/>
+            <Param value="CC#59" type="button" name="User" maximum="127" minimum="0"/>
+            <Param value="CC#56" type="button" name="Repeat" maximum="127" minimum="0"/>
+            <Param value="CC#57" type="button" name="Accent" maximum="127" minimum="0"/>
+            <Param value="CC#54" type="button" name="Octave Down" maximum="127" minimum="0"/>
+            <Param value="CC#55" type="button" name="Octave Up" maximum="127" minimum="0"/>
+
+            <Param value="CC#52" type="button" name="Add Effect" maximum="127" minimum="0"/>
+            <Param value="CC#53" type="button" name="Add Track" maximum="127" minimum="0"/>
+            <Param value="CC#50" type="button" name="Note" maximum="127" minimum="0"/>
+            <Param value="CC#51" type="button" name="Session" maximum="127" minimum="0"/>
+            <Param value="CC#48" type="button" name="Select" maximum="127" minimum="0"/>
+            <Param value="CC#49" type="button" name="Shift" maximum="127" minimum="0"/>
+          </Group>
+          <Group name="Cursor">
+            <Param value="CC#46" type="button" name="Up" maximum="127" minimum="0"/>
+            <Param value="CC#47" type="button" name="Down" maximum="127" minimum="0"/>
+            <Param value="CC#44" type="button" name="Left" maximum="127" minimum="0"/>
+            <Param value="CC#45" type="button" name="Right" maximum="127" minimum="0"/>            
+          </Group>
+        </Column>
+      </Row>
+    </Page>
+  </Parameters>
+</Device>
