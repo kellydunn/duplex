@@ -5,7 +5,7 @@ duplex_configurations:insert {
   pinned = true,
 
   -- device properties
-  device = {
+    device = {
     class_name = "OhmRGB",          
     display_name = "OhmRGB",
     device_port_in = "OhmRGB MIDI 1",
@@ -60,38 +60,9 @@ duplex_configurations:insert {
       options = {
         v_step = 5,     -- every 4th
         h_step = 3,     -- every 2nd
-        follow_pos = 2, -- disable follow
-      },
-      palette = {
-        -- pattern matrix
-        out_of_bounds       = { color={0x00,0x00,0x00}},
-        slot_empty          = { color={0x00,0x00,0x00}},
-        slot_empty_muted    = { color={0x00,0x00,0x00}},
-        slot_filled         = { color={0xff,0xff,0x00}},
-        slot_filled_muted   = { color={0xff,0x00,0x00}},
-        slot_master_filled  = { color={0xff,0xff,0x00}},
-        slot_master_empty   = { color={0xff,0x00,0x00}},
-        -- pattern sequence (buttonstrip)
-        trigger_active      = { color={0xff,0xff,0xff}},
-        trigger_loop        = { color={0x00,0xff,0xff}},
-        trigger_back        = { color={0x00,0x00,0x00}},
-        -- pattern sequence navigation (prev/next)
-        --[[
-        prev_seq_on         = { color={0xFF,0xFF,0xFF}},
-        prev_seq_off        = { color={0x00,0x00,0x00}},
-        next_seq_on         = { color={0xFF,0xFF,0xFF}},
-        next_seq_off        = { color={0x00,0x00,0x00}},
-        -- track navigation (prev/next)
-        prev_track_on       = { color={0xFF,0xFF,0xFF}},
-        prev_track_off      = { color={0x00,0x00,0x00}},
-        next_track_on       = { color={0xFF,0xFF,0xFF}},
-        next_track_off      = { color={0x00,0x00,0x00}},
-        ]]
-      
       }
     },
 
-    --[[
     Effect = {
       mappings = {
         parameters = {
@@ -127,7 +98,6 @@ duplex_configurations:insert {
         pattern_play = 3,
       }
     },
-    ]]
 
   }
 }
