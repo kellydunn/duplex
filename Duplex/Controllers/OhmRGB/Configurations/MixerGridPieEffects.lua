@@ -41,20 +41,20 @@ duplex_configurations:insert {
           group_name = "Grid",
         },
         v_prev = {
-          group_name = "Grid2",
+          group_name = "ControlsRight",
           index = 1,
         },
         v_next = {
-          group_name = "Grid2",
-          index = 2,
+          group_name = "ControlsRight",
+          index = 4,
         },
         h_prev = { 
-          group_name = "Grid2",
-          index = 3,
+          group_name = "ControlsRight",
+          index = 2,
         },
         h_next = {
-          group_name = "Grid2",
-          index = 4,
+          group_name = "ControlsRight",
+          index = 3,
         },
       },
       options = {

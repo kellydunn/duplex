@@ -1,7 +1,7 @@
 <Device>
-  <Name>Livid OHM64</Name>
+  <Name>Livid OHMRGB</Name>
   <Author>planetm, kRAkEn/gORe, danoise</Author>
-  <Description>Controlmap for Livid OHM64</Description>
+  <Description>Controlmap for Livid OHMRGB</Description>
   <Parameters>
     <Page>
       <Row>
@@ -96,7 +96,7 @@
             <Param value="G-3" type="button" name="Button 8,7"  maximum="64" minimum="0"/>
           </Group>
           <Group name="Grid2" columns="1">
-            <Param value="G#3" type="button" name="Button 1,8"  maximum="64" minimum="0"/>          
+            <Param value="G#3" type="button" name="Button 1,8"  maximum="64" minimum="0"/>
             <Param value="A-3" type="button" name="Button 2,8"  maximum="64" minimum="0"/>
             <Param value="A#3" type="button" name="Button 3,8"  maximum="64" minimum="0"/>
             <Param value="B-3" type="button" name="Button 4,8"  maximum="64" minimum="0"/>
@@ -149,4 +149,3 @@
     </Page>
   </Parameters>
 </Device>
-
